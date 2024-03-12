@@ -2,9 +2,9 @@
 import { ref } from 'vue';
 
 const imgs = [
-  '/src/assets/images/component-01/Image-01@2x.jpg',
-  '/src/assets/images/component-01/Image-02@2x.jpg',
-  '/src/assets/images/component-01/Image-03@2x.jpg',
+  '/images/component-01/Image-01@2x.jpg',
+  '/images/component-01/Image-02@2x.jpg',
+  '/images/component-01/Image-03@2x.jpg',
 ]
 
 const visibleRef = ref(false)
@@ -24,18 +24,18 @@ const onHide = () => visibleRef.value = false
       <div class="flex-1">
         <div class="overflow-hidden">
           <img class="h-full hover:scale-105 transition duration-300 ease-in-out cursor-pointer"
-            src="/src/assets/images/component-01/Image-01.jpg" alt="Featured Image" @click="showImg(0)">
+            src="/images/component-01/Image-01.jpg" alt="Featured Image" @click="showImg(0)">
         </div>
       </div>
 
       <div class="flex flex-col gap-6 flex-1">
         <div class="overflow-hidden">
           <img class="h-full hover:scale-105 transition duration-300 ease-in-out cursor-pointer"
-            src="/src/assets/images/component-01/Image-02.jpg" alt="Featured Image" @click="showImg(1)">
+            src="/images/component-01/Image-02.jpg" alt="Featured Image" @click="showImg(1)">
         </div>
         <div class="overflow-hidden">
           <img class="h-full hover:scale-105 transition duration-300 ease-in-out cursor-pointer"
-            src="/src/assets/images/component-01/Image-03.jpg" alt="Featured Image" @click="showImg(2)">
+            src="/images/component-01/Image-03.jpg" alt="Featured Image" @click="showImg(2)">
         </div>
       </div>
     </div>
