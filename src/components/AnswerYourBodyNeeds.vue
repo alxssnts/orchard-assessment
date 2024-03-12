@@ -20,7 +20,7 @@ const onHide = () => visibleRef.value = false
 
 <template>
   <div class="flex flex-col md:flex-row gap-6 md:p-0">
-    <div class="flex flex-col lg:flex-row gap-6 flex-0">
+    <div class="flex flex-col lg:flex-row gap-6 flex-0 md:flex-1">
       <div class="flex-1">
         <div class="overflow-hidden">
           <img class="h-full hover:scale-105 transition duration-300 ease-in-out cursor-pointer"
